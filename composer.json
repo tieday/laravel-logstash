@@ -1,0 +1,21 @@
+{
+    "name": "tieday/laravel-logstash",
+    "description": "A simple service provider for piping logs to logstash",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Karl Laurentius Roos",
+            "email": "karlroos93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tieday\\LaravelLogstash\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
